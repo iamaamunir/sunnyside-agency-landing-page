@@ -1,0 +1,82 @@
+/* FONTS
+  font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+}
+/* HERO SECTION */
+
+.section-1 {
+  background-image: url("images/desktop/image-header.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  margin: 0 30px;
+}
+
+.logo p {
+  color: hsl(0, 0%, 100%);
+  font-weight: 300;
+  font-family: "Barlow", sans-serif;
+  font-size: 26px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.nav-list li {
+  list-style: none;
+}
+
+.nav-list li a {
+  font-family: "Barlow", sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+
+#contact {
+  padding: 12px 24px;
+  background-color: #fff;
+  color: black;
+  border-radius: 50px;
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.section-1 h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 180px;
+  letter-spacing: 6px;
+  word-spacing: 3px;
+  font-family: "Fraunces", serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 900;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
