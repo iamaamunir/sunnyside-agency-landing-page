@@ -17,7 +17,8 @@ body {
 
 .section-1 {
   background-image: url("images/desktop/image-header.jpg");
-  height: 100vh;
+  height: 749.5px;
+  width: auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -79,4 +80,34 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+}
+
+/* SECTION-2 */
+.section-2 {
+  display: flex;
+}
+
+.description {
+  margin: auto auto;
+  /* width: 400px; */
+}
+
+.description h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  width: 250px;
+  line-height: 1.5;
+}
+
+.description p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 200;
+  margin-top: 24px;
+  width: 530px;
+  line-height: 1.5;
+}
+
+.description a {
+  display: inline-block;
+  margin-top: 42px;
 }
